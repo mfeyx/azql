@@ -98,7 +98,7 @@ CREATE TABLE [app].[users] (
       [id] INT NOT NULL
     , [name] NVARCHAR(100) NOT NULL
     , [email] NVARCHAR(255) NOT NULL
-    , [created_at] DATETIME NOT NULL
+    , [created_at] DATETIME2 NOT NULL
     , [is_active] BIT NOT NULL
 );
 ```
