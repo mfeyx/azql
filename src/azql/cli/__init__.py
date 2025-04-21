@@ -1,5 +1,5 @@
-from azql import convert
-from azql.cli.parser import cli_parser
+from ..convert import convert
+from .parser import cli_parser
 
 
 def main() -> None:

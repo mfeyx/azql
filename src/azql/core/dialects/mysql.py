@@ -7,8 +7,8 @@ from column type information.
 
 from typing import Any
 
-from azql.core.styles import Styles
-from azql.utils import round_up_to_nearest_multiple
+from ...core.styles import Styles
+from ...utils import round_up_to_nearest_multiple
 
 
 def ddl(

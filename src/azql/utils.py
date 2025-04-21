@@ -1,7 +1,7 @@
 from math import ceil
 
-from azql.config import COMMON_DELIMITERS, ENCODING
-from azql.core.models import DefaultArgs
+from .config import COMMON_DELIMITERS, ENCODING
+from .core.models import DefaultArgs
 
 
 def dict_to_args(args_dict: dict | DefaultArgs = None) -> object:

@@ -7,8 +7,8 @@ import json
 from pathlib import Path
 from typing import Any
 
-from azql.config import ENCODING
-from azql.utils import guess_csv_delimiter
+from ..config import ENCODING
+from ..utils import guess_csv_delimiter
 
 
 def get_options(defaults: dict, **kwargs):

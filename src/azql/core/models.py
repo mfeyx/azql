@@ -1,7 +1,7 @@
 from collections.abc import Callable
 from typing import TypedDict
 
-from azql.config import DDL_DIR
+from ..config import DDL_DIR
 
 
 class DefaultArgs:
@@ -12,7 +12,7 @@ class DefaultArgs:
     sample_size = 1000
     output_dir = DDL_DIR
     export = False
-    skip_validatation = False
+    skip_validation = False
 
 
 class DDLParams(TypedDict):
